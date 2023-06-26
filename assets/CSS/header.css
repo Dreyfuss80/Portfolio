@@ -1,0 +1,57 @@
+
+.header__top {
+    background-color:#d1c055;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+.header__body {
+    display: flex;
+    gap: 200px;
+}
+
+.header__izq {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+.header__derecha {
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.header__body {
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.header__body-izq {
+    width: 900px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.header__title {
+    font-size: 3rem;
+}
+
+.header_redessociales {
+    display: flex;
+    gap: 30px;
+}
+
+.header__img-propietario{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+}

@@ -1,0 +1,79 @@
+main {
+    background-color: #fffbf4;
+    margin-top: 80px;
+}
+
+.ancla {
+    padding-top: 55px;
+}
+
+.section__Sobre-mi {
+    width: 100vw;
+    height: 300px;
+    /* background-color:darkcyan ; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    /* font-style: italic; */
+}
+
+.section__skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.skill__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 230px;
+    width: 150px;
+    background-color: #ebdc70;
+    border-radius: 10px;
+    padding: 2px;
+    }
+
+.hobbies__title {
+    margin-top: 100px;
+}
+
+.section__hobies {
+    margin-top: 50px;
+    /* background-color:darkcyan ; */
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.hobbies__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #ffea6b;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+}
+
+.section__formAcad {
+    margin-bottom: 50px;
+}
